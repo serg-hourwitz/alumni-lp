@@ -1,54 +1,85 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lviv Polytechnic Alumni Association</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/local.css">
 </head>
+
 <body>
   <div class="app">
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Головна</a></li>
-        <li><a href="#">Про нас</a></li>
-        <li><a href="#">Новини</a></li>
-        <li><a href="#">Членство</a></li>
-        <li><a href="#">Проекти</a></li>
-        <li><a href="#">Ресурси</a></li>
-        <li><a href="#">Контакти</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <main>
-    <section class="welcome">
-      <h1>Ласкаво просимо до Асоціації Випускників Львівської Політехніки</h1>
-      <p>Об'єднуємо минуле, теперішнє та майбутнє.</p>
-      <a href="#" class="cta-button">Приєднатися до нас</a>
-    </section>
-  
-    <section class="news">
-      <h2>Останні новини</h2>
-      <article>
-        <h3>Заголовок новини</h3>
-        <p>Короткий опис новини...</p>
-        <a href="#">Детальніше</a>
-      </article>
-      <article>
-        <h3>Заголовок новини</h3>
-        <p>Короткий опис новини...</p>
-        <a href="#">Детальніше</a>
-      </article>
-    </section>
-  </main>
-  
-  <footer>
-    <p>&copy; 2024 Асоціація Випускників Львівської Політехніки. Всі права захищені.</p>
-  </footer>
-  
-  <script src="main.js"></script>
+    <!-- * header -->
+    <header class="header" id="header">
+      <div class="wrapper header-wrapper">
+        <!-- nav -->
+        <nav class="nav">
+          <div class="logo">
+            <a class="logo-link" href="https://clarity-project.info/edr/36312718" target="_blank"
+              title="clarity-project.info">
+              <img class="logo-img" src="./img/logo.jpg" alt="logo">
+              <span class="slogan">Об'єднуємо минуле, теперішнє та майбутнє</span>
+            </a>
+          </div>
+          <div class="nav-btns">
+            <a href="#" class="cta-button">Приєднатися до нас</a>
+            <a href="#menu" class="menu-btn">Menu</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--  menu -->
+    <ul class="nav-list" id="menu">
+      <li class="nav-list-item
+            "><a class="nav-list-link" href="#">Головна</a></li>
+      <li class="nav-list-item
+            "><a class="nav-list-link" href="#">Про нас</a></li>
+      <li class="nav-list-item
+            "><a class="nav-list-link" href="#">Новини</a></li>
+      <li class="nav-list-item
+            "><a class="nav-list-link" href="#">Членство</a></li>
+      <li class="nav-list-item
+            "><a class="nav-list-link" href="#">Проекти</a></li>
+      <li class="nav-list-item
+            "><a class="nav-list-link" href="#">Ресурси</a></li>
+      <li class="nav-list-item
+            "><a class="nav-list-link" href="#">Контакти</a></li>
+    </ul>
+
+    <!-- * main -->
+    <main class="main" id="main">
+      <!-- section -->
+      <section class="welcome">
+        <div class="welcome-headline">Ласкаво просимо до Асоціації Випускників Львівської Політехніки</div>
+
+      </section>
+      <!--  section -->
+      <section class="news">
+        <h2>Останні новини</h2>
+        <article>
+          <h3>Заголовок новини</h3>
+          <p>Короткий опис новини...</p>
+          <a href="#">Детальніше</a>
+        </article>
+        <article>
+          <h3>Заголовок новини</h3>
+          <p>Короткий опис новини...</p>
+          <a href="#">Детальніше</a>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Асоціація Випускників Львівської Політехніки. Всі права захищені.</p>
+    </footer>
+
+    <script src="main.js"></script>
   </div>
-  
+
 </body>
+
 </html>
